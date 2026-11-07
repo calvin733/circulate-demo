@@ -1,0 +1,41 @@
+# Flutter / Dart
+/.local/
+/.vscode/settings.json
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub/
+build/
+coverage/
+**/ephemeral/
+**/Pods/
+**/.symlinks/
+**/Flutter/Generated.xcconfig
+**/Flutter/flutter_export_environment.sh
+**/Flutter/Flutter.framework
+**/Flutter/App.framework
+**/Flutter/engine/
+android/.gradle/
+android/.kotlin/
+android/captures/
+android/local.properties
+android/key.properties
+android/**/GeneratedPluginRegistrant.java
+ios/Runner/GeneratedPluginRegistrant.*
+*.iml
+.idea/
+.DS_Store
+Thumbs.db
+# Secrets and local environment. Commit only examples.
+.env
+.env.*
+!.env.example
+config/*.json
+!config/*.example.json
+*.jks
+*.keystore
+*.p12
+*.pem
+supabase/.temp/
+supabase/.branches/
+# Keep the application's pubspec.lock under version control.
