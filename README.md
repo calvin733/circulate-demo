@@ -1,12 +1,12 @@
 # Circulate Demo
 
-Aplikasi pertukaran barang berbasis Flutter, Riverpod, go_router, dan Supabase. Mode demo memakai data lokal dan bisa dijalankan tanpa akun.
+An item-exchange application built using Flutter, Riverpod, go_router, and Supabase. The demo mode uses local data and can be run without an account.
 
-Gunakan Flutter 3.47.9 dan perangkat atau emulator Android.
+Use Flutter 3.47.9 and an Android device or emulator.
 
 ```sh
 flutter pub get
 flutter run --dart-define-from-file=config/demo.example.json
 ```
 
-Tes lokal: `flutter test`.
+Local test: `flutter test`.
